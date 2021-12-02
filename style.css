@@ -280,3 +280,54 @@ h3{
     margin-bottom: 15px;
     text-align: center;
 }
+
+/*------------------------personas----------------------*/
+
+.seguropersonas{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.seguropersonas-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.seguropersonas-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.seguropersonas-col p{
+    padding: 0;
+
+}
+.seguropersonas-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.seguropersonas1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.seguropersonas1-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.seguropersonas1-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.seguropersonas1-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
