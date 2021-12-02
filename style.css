@@ -319,15 +319,112 @@ h3{
 .seguropersonas1-col{
     flex-basis: 31%;
     border-radius: 10px;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     text-align: left;
 }
 .seguropersonas1-col img{
     width: 100%;
     border-radius: 10px;
 }
-.seguropersonas1-col h3{
+.segurospersonas1-col p{
+    padding: 0;
+
+}
+.segurospersonas1-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
     text-align: center;
+}
+
+/*---------------riesgos varios ------------------*/
+
+.riesgos{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.riesgos-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.riesgos-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.riesgos-col p{
+    padding: 0;
+
+}
+.riesgos-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.riesgos1{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 1px;
+}
+
+.riesgos1-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    text-align: left;
+}
+.riesgos1-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.riesgos-col p{
+    padding: 0;
+
+}
+.riesgos1-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/*-----llamado accion------*/
+
+.cta{
+    margin: 100px auto;
+    width: 80%;
+    background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/cat.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    text-align: center;
+    padding: 100px 0;
+}
+.cta h1{
+    color: #fff;
+    margin-bottom: 50px;
+    padding: 0;
+}
+
+@media(max-width:700px){
+    .cta h1{
+        font-size: 16px;
+    }
+}
+
+
+/*------------pie------------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
 }
