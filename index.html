@@ -1,0 +1,161 @@
+<<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://use.fontawesome.com/89d876e11f.js"></script>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Organizacion RD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    
+<body>
+<section class="header">
+    <nav>
+        <a href="index.html"><img src="images/logoposta1.png"></a>
+        <div class="nav-links" id="navlinks">
+            <i class="fa fa-times" onclick="hidemenu()"></i>
+            <ul>
+                <li><a href="">Novedades</a></li>
+                <li><a href="">Pedir cotizacion</a></li>
+                <li><a href="">Coberturas</a></li>
+                <li><a href="">Denuncia de siniestros</a></li>
+                <li><a href="">Acerca de Organizacion RD</a></li>
+                <li><a href="">Contacto</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showmenu()"></i>
+    </nav>
+
+<div class="text-box">
+    <h1>Organizacion RD</h1>
+    <p>Asegurarte nunca fue tan rapido!</p>
+    <a href=""class="hero-btn">ASEGURATE YA</a>
+</div>
+
+</section>
+
+<!------------- acerca de--------->
+
+<section class="acercade">
+    <h1>Acerca de nosotros</h1>
+    <p>Organizacion joven, moderna blablabla zaraza marketinera TECNOLOGIA y esas cosas para mejor atencion, profesionales y eso.</p>
+       <div class="row">
+           <div class="acerca-col">
+               <h3>caracteristica 1</h3> 
+               <p>asdasdñasdklja asñdlañsdj asdasdasdñlasda asdasda asdasdas dasdasdad saksssssssssss  ssssssssssssaaa   aaaaaaaaaaaasssss  asdasdasdsdfasdfasdfasdfasdfsdf</p>
+            </div>    
+            <div class="acerca-col">
+                <h3>caracteristica 2</h3>
+                <p>asdasdñasdklja asñdlañsdj asdasdasdñlasda asdasda asdasdas dasdasdad saksd aasdsaaaaaaaaaaa  aaaaaaassssssss  sssaaaaaaa asdfasdf asdfas df asdfasdfasdf </p>
+            </div>
+            <div class="acerca-col">
+                <h3>caracteristica 3</h3>
+                <p>asdasdñasdklja asñdlañsdj asdasdasdñlasda asdasda asdasdas dasdasdad saksaddddddddddd  dddddddddddddddddd  ddddddddd asdfasdfasd asdfasdf asdf asdfasdf sad fasad </p>
+            </div>
+       </div>
+</section>
+
+<!----------------seguros----------->
+
+<section class="seguros">
+    <h1>Las coberturas que ofrecemos</h1>
+    <p>Estas son las coberturas que ofremos para protegerte a vos y blablalblabla</p>
+
+    <div class="row">
+        <div class="seguros-col">
+            <img src="images/autofinal.png">
+            <div class="layer">
+                <h3>Automotores</h3>
+            </div>
+        </div>
+        <div class="seguros-col">
+            <img src="images/casa.png">
+            <div class="layer">
+                <h3>Hogar</h3>
+            </div>
+        </div>
+        <div class="seguros-col">
+            <img src="images/personas.png">
+            <div class="layer">
+                <h3>Personas</h3>
+            </div>
+        </div>
+        <div class="seguros-col">
+            <img src="images/varios.png">
+            <div class="layer">
+                <h3>Riesgos Varios</h3>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="coberturas">
+    <h1>Automotores</h1>
+    <p>Una amplia gama de coberturas para tu automotor</p>
+
+    <div class="row">
+        <div class = "coberturas-col">
+            <img src = "images/todoriesgo.png">
+            <h3>Todo Riesgo</h3>
+            <p>La mas completa zaraza zaraza para tu automotor</p>    
+        </div>
+
+        <div class = "coberturas-col">
+            <img src = "images/cfull.png">
+            <h3>C Full</h3>
+            <p>Protege tu vehiculo con esta asdasdas</p>    
+        </div>
+
+        <div class = "coberturas-col">
+            <img src = "images/rc.png">
+            <h3>Responsabilidad civil</h3>
+            <p>Viaja tranquilo con tu seguro obligatorio  asss sssasd</p>    
+        </div>
+
+    </div>
+</section>
+
+<section class="coberturahogar">
+    <h1>Combinado familiar e integral de comercio</h1>
+    <p>La mejor proteccion para tu casa y tu negocio esta aca</p>
+
+    <div class="row">
+        <div class = "coberturahogar-col">
+            <img src = "images/coberhogar.png">
+            <h3>combinado familiar</h3>
+            <p>La mas completa para tu casa</p>    
+        </div>
+
+        <div class = "coberturahogar-col">
+            <img src = "images/mascotas.png">
+            <h3>mascotas</h3>
+            <p>Protege tu vehiculo con esta asdasdas</p>    
+        </div>
+
+        <div class = "coberturahogar-col">
+            <img src = "images/comercio.png">
+            <h3>integral de comercio</h3>
+            <p>Viaja tranquilo con tu seguro obligatorio  asss sssasd</p>    
+        </div>
+
+    </div>
+
+</section>
+
+<!--------------------------javascript para el menu de celu--------->
+<script>
+
+    var navlinks = document.getElementById("navlinks");
+    function showmenu(){
+        navlinks.style.right = "0";
+    }
+    function hidemenu(){
+        navlinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
