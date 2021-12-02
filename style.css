@@ -434,3 +434,15 @@ footer h4{
 html{
     scroll-behavior: smooth;
 }
+
+a:link {
+  color: white);
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
