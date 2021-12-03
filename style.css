@@ -4,6 +4,10 @@
     font-family: 'Poppins', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+  
 a:link {
   color: white;
   background-color: transparent;
