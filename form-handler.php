@@ -20,7 +20,7 @@ $headers .= "Responder a: $visitor_email \r\n";
 
 mail($to,$email_subject,$email_body,$headers);
 
-header("Location: contact.html");
+header("Location: contacto.html")
 
 
 
