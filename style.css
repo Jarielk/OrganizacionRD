@@ -257,7 +257,7 @@ h3{
 .coberturas{
     width: 80%;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     padding-top: 100px;
 }
 
@@ -265,7 +265,7 @@ h3{
     flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
-    text-align: left;
+    text-align: justify;
 }
 .coberturas-col img{
     width: 100%;
@@ -278,7 +278,7 @@ h3{
 .coberturas-col h3{
     margin-top: 16px;
     margin-bottom: 15px;
-    text-align: center;
+    text-align: justify;
 }
 
 /*----------------------coberturahogar-------------*/
@@ -800,7 +800,7 @@ h3{
 .coberturas{
     width: 80%;
     margin: auto;
-    text-align: center;
+    text-align: justify;
     padding-top: 100px;
 }
 h1{
